@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
     //액티비티 상태: 화면에 나타남, 현재 실행 중
     //실제 액티비티가 실행됨
 
+
+    //위로는 화면을 생성하는 생명주기: onCreate(), onStart(), onResume()
+    //---------------------------------------------------------------------------------
+    //아래로는 화면을 제거하는 생명주기: onPause(), onStop(), onDestroy()
+
+
     override fun onPause() {
         super.onPause()
     }
@@ -41,3 +47,5 @@ class MainActivity : AppCompatActivity() {
     //액티비티 상태: 종료됨
     //종료됨
 }
+
+//액티비티 백스택(Back)
